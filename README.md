@@ -1,5 +1,9 @@
 # WatermarkToPDF
 Place your watermark on every page in PDF-file.
+## Installation
+```bash
+composer require geqo/watermarktopdf
+```
 ## Usage
 ```php
 $file = new \Geqo\WatermarkToPDF(
