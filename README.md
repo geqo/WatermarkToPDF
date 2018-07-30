@@ -1,8 +1,11 @@
-# DocToPDF
-Document to PDF converter. OpenOffice or LibreOffice required.
+# WatermarkToPDF
+Place your watermark on every page in PDF-file.
 ## Usage
 ```php
-$file = new \Geqo\DocToPDF(__DIR__ . '/23474.csv');
-$file->setTargetDir(__DIR__);
+$file = new \Geqo\WatermarkToPDF(
+  __DIR__ . '/watermark.png', 
+  __DIR__ . '/document.pdf', 
+  __DIR__ . '/result.pdf'
+);
 $file->execute();
 ```
