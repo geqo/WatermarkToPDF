@@ -1,0 +1,19 @@
+{
+    "name": "geqo/watermarktopdf",
+    "description": "Put image watermark on PDF",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Alex",
+            "email": "dev@geqo.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Geqo\\": "src/Geqo/"
+        }
+    }
+}
